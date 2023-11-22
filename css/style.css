@@ -73,7 +73,86 @@ header{
     background: #24CAAC;
 }
 
-.logo{
+.logo h2 a{
     color: #fff;
     text-transform: uppercase;
+}
+
+.inner_anasayfa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+
+.child_anasayfa{
+    flex-basis: 45%;
+}
+
+.child_anasayfa h1{
+    font-size: 50px;
+    color: honeydew;
+}
+
+.span_child{
+    color: coral;
+}
+
+.child_anasayfa p{
+    font-size: 25px; 
+    margin-bottom: 11px;
+}
+
+.btn{
+    background: #24CAAC;
+    padding: 12px 28px;
+    border-radius: 18px;
+    color: #fff;
+    border: 1px solid #24CAAC;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn:hover{
+    background-color: transparent;
+}
+
+.inner_software{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.inner_software_child{
+    flex-basis: 31%;
+    color: #fff;
+    padding: 25px 20px;
+    background: rgba(55, 66, 80, 0.281);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all .3s ease-in;
+}
+
+.inner_software_child:hover{
+    border: 1px solid #24CAAC;
+}
+
+.inner_software_child .icon{
+    font-size: 25px;
+    color: #24CAAC;
+}
+
+.inner_software_child h3{
+    font-size: 20px;
+    color: bisque;
+    margin: 5px 0;
+}
+
+.inner_software_child p{
+    font-size: 15px;
 }
